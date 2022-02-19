@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.button-click {
+
+    background-color: #0db14b;
+    border: none;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    margin-right: 20px;
+    border-radius: 15px;
+
+    cursor: pointer;
+
+}
+
+.btn-burger--wrap {
+    padding-top: 5px;
+    margin-right: 10px;
+    width: 25px;
+
+
+    cursor: pointer;
+}
+
+.btn-burger--wrap span {
+    height: 3px;
+    display: block;
+    margin-bottom: 5px;
+
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+    left: 0;
+
+
+}
+
+.button-click__text {
+    line-height: 2;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dropdown-item__link:hover {
+    outline: 2px solid green;
+}
+
+.d-flex input {
+
+    width: 600px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    outline: 2px solid green;
+    border-radius: 5px;
+
+}
+
+.nav-link:active {
+
+    background-color: green;
+    color: #fff;
+}
+
+@media screen and (max-width: 1399px) {
+    .d-flex input {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .d-flex input {
+        width: 250px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .button-click {
+        margin-bottom: 10px;
+    }
+    .d-flex input {
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .d-flex input {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .d-flex input {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .d-flex input {
+        width: 150px;
+    }
+}
